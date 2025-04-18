@@ -8,6 +8,7 @@
 import UIKit
 import SnapKit
 import Combine
+import SkeletonView
 
 final class SermonNoteViewController: UIViewController {
 
@@ -38,6 +39,10 @@ final class SermonNoteViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
         bindViewModel()
+        
+        tableView.isSkeletonable = true
+        tableView.showAnimatedSkeleton()
+        
         viewModel.loadNotes()
     }
 
@@ -113,18 +118,34 @@ final class SermonNoteViewController: UIViewController {
     }
 }
 
-// MARK: - UITableViewDataSource
 
+// MARK: - SkeletonTableView DataSource
+extension SermonNoteViewController: SkeletonTableViewDataSource  {
+    
+    func collectionSkeletonView(_ skeletonView: UITableView, cellIdentifierForRowAt indexPath: IndexPath) -> ReusableCellIdentifier {
+        return "NoteCell"
+    }
+    
+    func collectionSkeletonView(_ skeletonView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+}
+
+// MARK: - UITableViewDataSource
 extension SermonNoteViewController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.notes.count
     }
-
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let note = viewModel.notes[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "NoteCell", for: indexPath)
         cell.textLabel?.text = "📖 \(note.title)"
         cell.accessoryType = .disclosureIndicator
+
+        cell.textLabel?.isSkeletonable = true
+        cell.textLabel?.linesCornerRadius = 4
         return cell
     }
 }

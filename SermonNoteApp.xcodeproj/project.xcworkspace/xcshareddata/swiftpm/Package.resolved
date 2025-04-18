@@ -1,5 +1,5 @@
 {
-  "originHash" : "0c5715f0c6fafa89aa5c569d1553fe838638faac9c28b35fa053197a9302a482",
+  "originHash" : "65b23f77a012c0d1108aba70116d9b9c03fbd5176297217cf712a57a7daa47e7",
   "pins" : [
     {
       "identity" : "flex",
@@ -20,6 +20,15 @@
       }
     },
     {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "7deda23bbdca612076c5c315003d8638a08ed0f1",
+        "version" : "8.3.2"
+      }
+    },
+    {
       "identity" : "realm-core",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/realm/realm-core.git",
@@ -35,6 +44,15 @@
       "state" : {
         "branch" : "master",
         "revision" : "712c52af6ae1aaca9aec83f1a14f4e5d48e3a24c"
+      }
+    },
+    {
+      "identity" : "skeletonview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Juanpe/SkeletonView",
+      "state" : {
+        "revision" : "2f5274827d310e32c09325dd3e0007120940988e",
+        "version" : "1.31.0"
       }
     },
     {

@@ -12,6 +12,8 @@
 		62E112452DB225A300F7672B /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = 62E112442DB225A300F7672B /* Hero */; };
 		62E112512DB2278D00F7672B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 62E112502DB2278D00F7672B /* SnapKit */; };
 		62E1125B2DB2282800F7672B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 62E1125A2DB2282800F7672B /* RealmSwift */; };
+		62E1125E2DB235ED00F7672B /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 62E1125D2DB235ED00F7672B /* SkeletonView */; };
+		62E112612DB235FD00F7672B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 62E112602DB235FD00F7672B /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,8 +90,10 @@
 			files = (
 				62E1125B2DB2282800F7672B /* RealmSwift in Frameworks */,
 				62E112452DB225A300F7672B /* Hero in Frameworks */,
+				62E112612DB235FD00F7672B /* Kingfisher in Frameworks */,
 				62E112512DB2278D00F7672B /* SnapKit in Frameworks */,
 				62E112422DB2259A00F7672B /* SwiftDate in Frameworks */,
+				62E1125E2DB235ED00F7672B /* SkeletonView in Frameworks */,
 				62E1123A2DB2258800F7672B /* FLEX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +169,8 @@
 				62E112442DB225A300F7672B /* Hero */,
 				62E112502DB2278D00F7672B /* SnapKit */,
 				62E1125A2DB2282800F7672B /* RealmSwift */,
+				62E1125D2DB235ED00F7672B /* SkeletonView */,
+				62E112602DB235FD00F7672B /* Kingfisher */,
 			);
 			productName = SermonNoteApp;
 			productReference = 62E1117E2DB1E2BC00F7672B /* SermonNoteApp.app */;
@@ -254,6 +260,8 @@
 				62E112432DB225A200F7672B /* XCRemoteSwiftPackageReference "Hero" */,
 				62E1124E2DB2276A00F7672B /* XCRemoteSwiftPackageReference "SnapKit" */,
 				62E112592DB2282800F7672B /* XCRemoteSwiftPackageReference "realm-swift" */,
+				62E1125C2DB235ED00F7672B /* XCRemoteSwiftPackageReference "SkeletonView" */,
+				62E1125F2DB235FD00F7672B /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 62E1117F2DB1E2BC00F7672B /* Products */;
@@ -656,6 +664,22 @@
 				kind = branch;
 			};
 		};
+		62E1125C2DB235ED00F7672B /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.31.0;
+			};
+		};
+		62E1125F2DB235FD00F7672B /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -683,6 +707,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 62E112592DB2282800F7672B /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
+		};
+		62E1125D2DB235ED00F7672B /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62E1125C2DB235ED00F7672B /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+		62E112602DB235FD00F7672B /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62E1125F2DB235FD00F7672B /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
