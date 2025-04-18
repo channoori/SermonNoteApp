@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		62E111952DB1E2BD00F7672B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E111762DB1E2BC00F7672B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E1117D2DB1E2BC00F7672B;
+			remoteInfo = SermonNoteApp;
+		};
+		62E1119F2DB1E2BD00F7672B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E111762DB1E2BC00F7672B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E1117D2DB1E2BC00F7672B;
+			remoteInfo = SermonNoteApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62E1117E2DB1E2BC00F7672B /* SermonNoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SermonNoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E111942DB1E2BD00F7672B /* SermonNoteAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SermonNoteAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E1119E2DB1E2BD00F7672B /* SermonNoteAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SermonNoteAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		62E111A62DB1E2BD00F7672B /* Exceptions for "SermonNoteApp" folder in "SermonNoteApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 62E1117D2DB1E2BC00F7672B /* SermonNoteApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		62E111802DB1E2BC00F7672B /* SermonNoteApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				62E111A62DB1E2BD00F7672B /* Exceptions for "SermonNoteApp" folder in "SermonNoteApp" target */,
+			);
+			path = SermonNoteApp;
+			sourceTree = "<group>";
+		};
+		62E111972DB1E2BD00F7672B /* SermonNoteAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SermonNoteAppTests;
+			sourceTree = "<group>";
+		};
+		62E111A12DB1E2BD00F7672B /* SermonNoteAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SermonNoteAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62E1117B2DB1E2BC00F7672B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E111912DB1E2BD00F7672B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E1119B2DB1E2BD00F7672B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62E111752DB1E2BC00F7672B = {
+			isa = PBXGroup;
+			children = (
+				62E111802DB1E2BC00F7672B /* SermonNoteApp */,
+				62E111972DB1E2BD00F7672B /* SermonNoteAppTests */,
+				62E111A12DB1E2BD00F7672B /* SermonNoteAppUITests */,
+				62E1117F2DB1E2BC00F7672B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62E1117F2DB1E2BC00F7672B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62E1117E2DB1E2BC00F7672B /* SermonNoteApp.app */,
+				62E111942DB1E2BD00F7672B /* SermonNoteAppTests.xctest */,
+				62E1119E2DB1E2BD00F7672B /* SermonNoteAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62E1117D2DB1E2BC00F7672B /* SermonNoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E111A72DB1E2BD00F7672B /* Build configuration list for PBXNativeTarget "SermonNoteApp" */;
+			buildPhases = (
+				62E1117A2DB1E2BC00F7672B /* Sources */,
+				62E1117B2DB1E2BC00F7672B /* Frameworks */,
+				62E1117C2DB1E2BC00F7672B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				62E111802DB1E2BC00F7672B /* SermonNoteApp */,
+			);
+			name = SermonNoteApp;
+			packageProductDependencies = (
+			);
+			productName = SermonNoteApp;
+			productReference = 62E1117E2DB1E2BC00F7672B /* SermonNoteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62E111932DB1E2BD00F7672B /* SermonNoteAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E111AC2DB1E2BD00F7672B /* Build configuration list for PBXNativeTarget "SermonNoteAppTests" */;
+			buildPhases = (
+				62E111902DB1E2BD00F7672B /* Sources */,
+				62E111912DB1E2BD00F7672B /* Frameworks */,
+				62E111922DB1E2BD00F7672B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E111962DB1E2BD00F7672B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				62E111972DB1E2BD00F7672B /* SermonNoteAppTests */,
+			);
+			name = SermonNoteAppTests;
+			packageProductDependencies = (
+			);
+			productName = SermonNoteAppTests;
+			productReference = 62E111942DB1E2BD00F7672B /* SermonNoteAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62E1119D2DB1E2BD00F7672B /* SermonNoteAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E111AF2DB1E2BD00F7672B /* Build configuration list for PBXNativeTarget "SermonNoteAppUITests" */;
+			buildPhases = (
+				62E1119A2DB1E2BD00F7672B /* Sources */,
+				62E1119B2DB1E2BD00F7672B /* Frameworks */,
+				62E1119C2DB1E2BD00F7672B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E111A02DB1E2BD00F7672B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				62E111A12DB1E2BD00F7672B /* SermonNoteAppUITests */,
+			);
+			name = SermonNoteAppUITests;
+			packageProductDependencies = (
+			);
+			productName = SermonNoteAppUITests;
+			productReference = 62E1119E2DB1E2BD00F7672B /* SermonNoteAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62E111762DB1E2BC00F7672B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					62E1117D2DB1E2BC00F7672B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					62E111932DB1E2BD00F7672B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 62E1117D2DB1E2BC00F7672B;
+					};
+					62E1119D2DB1E2BD00F7672B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 62E1117D2DB1E2BC00F7672B;
+					};
+				};
+			};
+			buildConfigurationList = 62E111792DB1E2BC00F7672B /* Build configuration list for PBXProject "SermonNoteApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62E111752DB1E2BC00F7672B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 62E1117F2DB1E2BC00F7672B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62E1117D2DB1E2BC00F7672B /* SermonNoteApp */,
+				62E111932DB1E2BD00F7672B /* SermonNoteAppTests */,
+				62E1119D2DB1E2BD00F7672B /* SermonNoteAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62E1117C2DB1E2BC00F7672B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E111922DB1E2BD00F7672B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E1119C2DB1E2BD00F7672B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62E1117A2DB1E2BC00F7672B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E111902DB1E2BD00F7672B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E1119A2DB1E2BD00F7672B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62E111962DB1E2BD00F7672B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E1117D2DB1E2BC00F7672B /* SermonNoteApp */;
+			targetProxy = 62E111952DB1E2BD00F7672B /* PBXContainerItemProxy */;
+		};
+		62E111A02DB1E2BD00F7672B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E1117D2DB1E2BC00F7672B /* SermonNoteApp */;
+			targetProxy = 62E1119F2DB1E2BD00F7672B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62E111A82DB1E2BD00F7672B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQNBK5T5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SermonNoteApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.channoori.SermonNoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62E111A92DB1E2BD00F7672B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQNBK5T5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SermonNoteApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.channoori.SermonNoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62E111AA2DB1E2BD00F7672B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62E111AB2DB1E2BD00F7672B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62E111AD2DB1E2BD00F7672B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQNBK5T5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.channoori.SermonNoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SermonNoteApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SermonNoteApp";
+			};
+			name = Debug;
+		};
+		62E111AE2DB1E2BD00F7672B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQNBK5T5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.channoori.SermonNoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SermonNoteApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SermonNoteApp";
+			};
+			name = Release;
+		};
+		62E111B02DB1E2BD00F7672B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQNBK5T5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.channoori.SermonNoteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SermonNoteApp;
+			};
+			name = Debug;
+		};
+		62E111B12DB1E2BD00F7672B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQNBK5T5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.channoori.SermonNoteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SermonNoteApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62E111792DB1E2BC00F7672B /* Build configuration list for PBXProject "SermonNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E111AA2DB1E2BD00F7672B /* Debug */,
+				62E111AB2DB1E2BD00F7672B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E111A72DB1E2BD00F7672B /* Build configuration list for PBXNativeTarget "SermonNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E111A82DB1E2BD00F7672B /* Debug */,
+				62E111A92DB1E2BD00F7672B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E111AC2DB1E2BD00F7672B /* Build configuration list for PBXNativeTarget "SermonNoteAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E111AD2DB1E2BD00F7672B /* Debug */,
+				62E111AE2DB1E2BD00F7672B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E111AF2DB1E2BD00F7672B /* Build configuration list for PBXNativeTarget "SermonNoteAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E111B02DB1E2BD00F7672B /* Debug */,
+				62E111B12DB1E2BD00F7672B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62E111762DB1E2BC00F7672B /* Project object */;
+}
