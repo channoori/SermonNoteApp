@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		62E1123A2DB2258800F7672B /* FLEX in Frameworks */ = {isa = PBXBuildFile; productRef = 62E112392DB2258800F7672B /* FLEX */; };
+		62E112422DB2259A00F7672B /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 62E112412DB2259A00F7672B /* SwiftDate */; };
+		62E112452DB225A300F7672B /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = 62E112442DB225A300F7672B /* Hero */; };
+		62E112512DB2278D00F7672B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 62E112502DB2278D00F7672B /* SnapKit */; };
+		62E1125B2DB2282800F7672B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 62E1125A2DB2282800F7672B /* RealmSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		62E111952DB1E2BD00F7672B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,6 +31,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		62E112552DB2278D00F7672B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		62E1117E2DB1E2BC00F7672B /* SermonNoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SermonNoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E111942DB1E2BD00F7672B /* SermonNoteAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SermonNoteAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +51,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		62E111A62DB1E2BD00F7672B /* Exceptions for "SermonNoteApp" folder in "SermonNoteApp" target */ = {
+		62E112042DB20FC900F7672B /* Exceptions for "SermonNoteApp" folder in "SermonNoteApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = 62E1117D2DB1E2BC00F7672B /* SermonNoteApp */;
 		};
@@ -43,7 +64,7 @@
 		62E111802DB1E2BC00F7672B /* SermonNoteApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				62E111A62DB1E2BD00F7672B /* Exceptions for "SermonNoteApp" folder in "SermonNoteApp" target */,
+				62E112042DB20FC900F7672B /* Exceptions for "SermonNoteApp" folder in "SermonNoteApp" target */,
 			);
 			path = SermonNoteApp;
 			sourceTree = "<group>";
@@ -65,6 +86,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E1125B2DB2282800F7672B /* RealmSwift in Frameworks */,
+				62E112452DB225A300F7672B /* Hero in Frameworks */,
+				62E112512DB2278D00F7672B /* SnapKit in Frameworks */,
+				62E112422DB2259A00F7672B /* SwiftDate in Frameworks */,
+				62E1123A2DB2258800F7672B /* FLEX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +117,7 @@
 				62E111802DB1E2BC00F7672B /* SermonNoteApp */,
 				62E111972DB1E2BD00F7672B /* SermonNoteAppTests */,
 				62E111A12DB1E2BD00F7672B /* SermonNoteAppUITests */,
+				62E1124F2DB2278D00F7672B /* Frameworks */,
 				62E1117F2DB1E2BC00F7672B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +132,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		62E1124F2DB2278D00F7672B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +149,7 @@
 				62E1117A2DB1E2BC00F7672B /* Sources */,
 				62E1117B2DB1E2BC00F7672B /* Frameworks */,
 				62E1117C2DB1E2BC00F7672B /* Resources */,
+				62E112552DB2278D00F7672B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +160,11 @@
 			);
 			name = SermonNoteApp;
 			packageProductDependencies = (
+				62E112392DB2258800F7672B /* FLEX */,
+				62E112412DB2259A00F7672B /* SwiftDate */,
+				62E112442DB225A300F7672B /* Hero */,
+				62E112502DB2278D00F7672B /* SnapKit */,
+				62E1125A2DB2282800F7672B /* RealmSwift */,
 			);
 			productName = SermonNoteApp;
 			productReference = 62E1117E2DB1E2BC00F7672B /* SermonNoteApp.app */;
@@ -208,6 +248,13 @@
 			);
 			mainGroup = 62E111752DB1E2BC00F7672B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				62E112382DB2258800F7672B /* XCRemoteSwiftPackageReference "FLEX" */,
+				62E112402DB2259A00F7672B /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				62E112432DB225A200F7672B /* XCRemoteSwiftPackageReference "Hero" */,
+				62E1124E2DB2276A00F7672B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				62E112592DB2282800F7672B /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 62E1117F2DB1E2BC00F7672B /* Products */;
 			projectDirPath = "";
@@ -291,10 +338,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HNQNBK5T5H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SermonNoteApp/Info.plist;
+				INFOPLIST_FILE = SermonNoteApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,10 +365,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HNQNBK5T5H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SermonNoteApp/Info.plist;
+				INFOPLIST_FILE = SermonNoteApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -569,6 +614,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62E112382DB2258800F7672B /* XCRemoteSwiftPackageReference "FLEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FLEXTool/FLEX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.22.10;
+			};
+		};
+		62E112402DB2259A00F7672B /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		62E112432DB225A200F7672B /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HeroTransitions/Hero";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.4;
+			};
+		};
+		62E1124E2DB2276A00F7672B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		62E112592DB2282800F7672B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62E112392DB2258800F7672B /* FLEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62E112382DB2258800F7672B /* XCRemoteSwiftPackageReference "FLEX" */;
+			productName = FLEX;
+		};
+		62E112412DB2259A00F7672B /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62E112402DB2259A00F7672B /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		62E112442DB225A300F7672B /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62E112432DB225A200F7672B /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
+		};
+		62E112502DB2278D00F7672B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62E1124E2DB2276A00F7672B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		62E1125A2DB2282800F7672B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62E112592DB2282800F7672B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 62E111762DB1E2BC00F7672B /* Project object */;
 }
